@@ -16,12 +16,12 @@ more context about who the user is.
 
 ## The Algorithm
 
-Step 1: Identify User by Screen Name
-Step 2: Find all nodes that the user follows
-Step 3: Filter all followed nodes by a ranking algorithm
-Step 4: Grab each followed nodes profile description and send to a natural language api
-Step 5: Retrieve the category the description most likely meets from the NL API
-Step 6: Weight the Categories based on occurrence and display to the requestor
+* Step 1: Identify User by Screen Name
+* Step 2: Find all nodes that the user follows
+* Step 3: Filter all followed nodes by a ranking algorithm
+* Step 4: Grab each followed nodes profile description and send to a natural language api
+* Step 5: Retrieve the category the description most likely meets from the NL API
+* Step 6: Weight the Categories based on occurrence and display to the requestor
  
 
 ## The experiment details
