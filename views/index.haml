@@ -1,0 +1,14 @@
+%h1 Who Are You?
+
+%p Enter a twitter screen name and press calculate to determine the base categories the user is interested in.
+
+%form{:action => '/screen', :method => 'post'}
+  %fieldset
+    %legend Who are you?
+    %p
+      %label Screen Name
+      %input{:type => 'text', :name => 'sn'}
+    %p
+      %input{:type => 'submit'}
+- if @categories
+  = haml :results 
