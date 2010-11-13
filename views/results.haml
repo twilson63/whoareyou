@@ -2,5 +2,6 @@
 
 %ul
   - @categories.each do |cat|
-    %li= cat
+    - unless cat == 'unknown'
+      %li= cat 
   
