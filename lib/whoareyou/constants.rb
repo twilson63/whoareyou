@@ -1,4 +1,4 @@
-module Whoru  
+module Whoareyou  
 
   INFOCHIMPS_APIKEY = ENV['INFOCHIMPS']
   ALCHEMY = ENV['ALCHEMY']

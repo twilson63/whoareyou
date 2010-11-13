@@ -1,6 +1,6 @@
 require 'cgi'
 
-module Whoru
+module Whoareyou
   module Category
     def category(text)
       get(Whoru::CATEGORY + CGI.escape(text))['category']

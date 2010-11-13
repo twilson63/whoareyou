@@ -1,4 +1,4 @@
-module Whoru
+module Whoareyou
   # Step 1 : Get Friends
   # Step 2 : Rank Friends
   # Step 3 : Pick top 15
@@ -7,11 +7,11 @@ module Whoru
 
   
   class Algorithm
-    include Whoru::Api
-    include Whoru::Friends
-    include Whoru::Rank
-    include Whoru::Profile
-    include Whoru::Category
+    include Whoareyou::Api
+    include Whoareyou::Friends
+    include Whoareyou::Rank
+    include Whoareyou::Profile
+    include Whoareyou::Category
     
     TOP_15 = 0..15
     

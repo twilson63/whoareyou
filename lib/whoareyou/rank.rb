@@ -1,4 +1,4 @@
-module Whoru
+module Whoareyou
   module Rank
     def rank(friends)
       ranked_friends = []

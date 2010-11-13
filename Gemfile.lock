@@ -1,10 +1,12 @@
 GEM
+  remote: http://rubygems.org/
   specs:
     crack (0.1.8)
     diff-lcs (1.1.2)
     haml (3.0.23)
     mime-types (1.16)
     rack (1.2.1)
+    rdiscount (1.6.5)
     rest-client (1.6.1)
       mime-types (>= 1.16)
     rspec (2.0.1)
@@ -17,8 +19,10 @@ GEM
     rspec-mocks (2.0.1)
       rspec-core (~> 2.0.1)
       rspec-expectations (~> 2.0.1)
-    sinatra (1.0)
-      rack (>= 1.0)
+    sinatra (1.1.0)
+      rack (~> 1.1)
+      tilt (~> 1.1)
+    tilt (1.1)
 
 PLATFORMS
   ruby
@@ -26,6 +30,7 @@ PLATFORMS
 DEPENDENCIES
   crack
   haml
+  rdiscount
   rest-client
   rspec
-  sinatra
+  sinatra (>= 1.1.0)

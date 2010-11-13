@@ -1,0 +1,23 @@
+!!! 5
+%html
+  %head
+    %title Who Are You?
+    %meta{:name => 'description', :content => 'Who are you is an experimental algorithm that looks at who a person is following to try to determine that person''s interests'}
+    %link{:rel => 'stylesheet', :href => '/stylesheets/reset.css', :type => 'text/css', :media => 'screen'}
+    %link{:rel => 'stylesheet', :href => '/stylesheets/960.css', :type => 'text/css', :media => 'screen'}
+    %link{:rel => 'stylesheet', :href => '/app.css', :type => 'text/css', :media => 'screen'}
+
+  %body
+    .container_12
+      %nav
+        %ul
+          %li
+            %a{:href => '/'} Home
+          %li
+            %a{:href => '/about'} About
+          %li
+            %a{:href => 'http://github.com/twilson63/whoareyou'} Source
+      %header
+        %h1 Who Are You?
+      
+      = yield

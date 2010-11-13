@@ -1,0 +1,78 @@
+body {
+  font-family: Tahoma;
+}
+
+fieldset {
+  border: 4px solid gray;
+  margin: 20px;
+  padding: 20px;
+  
+  ul {
+    list-style: none;
+    li {
+      display: inline;
+      color: rgba(0,0,0,.7);
+    }
+  }
+  input {
+    font-size: 18px;
+  }
+}
+
+section {
+  padding: 40px;
+  article {
+    color: rgba(0,0,0,.8);
+    header {
+      border: 1px solid gray;
+      color: darkgray;
+    }
+    p {
+      margin: 15px 0; 
+      letter-spacing: 1px;
+      line-height: 22px;
+    }
+    ul {
+      li {
+        margin: 15px 10px;
+        
+      }
+    }
+    
+  }
+}
+
+header {
+  border: 1px solid gray;
+  padding: 10px;
+  background: whitesmoke;
+  h1 {
+    color: gray;
+    font-size: 36px;
+  }
+  h2 {
+    color: gray;
+  
+  }
+
+}
+
+nav {
+  ul {
+    float:right;
+    list-style: none;
+    background: gray;
+    height: 22px;
+    li {
+      display: inline;
+      a {
+        color: white;
+        padding: 10px 10px;
+        text-decoration: none;
+      }
+      a:hover {
+        background: darkgray;
+      }
+    }
+  }
+}

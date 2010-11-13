@@ -1,4 +1,4 @@
-module Whoru
+module Whoareyou
   module Friends
     def friends
       #puts [Whoru::FRIENDS,"#{@screen_name}.json"].join('/')

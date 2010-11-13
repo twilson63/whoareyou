@@ -31,7 +31,7 @@ the trstrank.  The trstrank will allow us to select the top 15 followers for a g
 use the twitter api to grab the description of each follower and use the Alchemy API to perform natural
 language processing on each description, to determine a category that this user fits.
 
-Hopefully, at the end of the experiement it will show a simple way to determine a users major interests.
+Hopefully, at the end of the experiment it will show a simple way to determine a users major interests.
 
 We will see.
 
