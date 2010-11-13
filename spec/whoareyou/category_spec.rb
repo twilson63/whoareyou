@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe 'Whoru::Category' do
+describe 'Whoareyou::Category' do
   it 'should return empty array' do
     
     class SampleCategory
-      include Whoru::Api
-      include Whoru::Category
+      include Whoareyou::Api
+      include Whoareyou::Category
       
     end
     sample = SampleCategory.new

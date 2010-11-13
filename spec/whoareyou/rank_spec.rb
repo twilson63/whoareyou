@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe 'Whoru::Rank' do
+describe 'Whoareyou::Rank' do
   it 'should return empty array' do
     
     class SampleRank
-      include Whoru::Api
-      include Whoru::Rank
+      include Whoareyou::Api
+      include Whoareyou::Rank
       
     end
     sample = SampleRank.new

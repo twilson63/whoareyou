@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe 'Whoru::Friends' do
+describe 'Whoareyou::Friends' do
   it 'should return empty array' do
     
     class Sample
-      include Whoru::Api
-      include Whoru::Friends
+      include Whoareyou::Api
+      include Whoareyou::Friends
       attr_accessor :screen_name
       def initialize(screen_name)
         @screen_name = screen_name

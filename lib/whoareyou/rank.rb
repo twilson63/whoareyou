@@ -12,7 +12,7 @@ module Whoareyou
     private
     
     def trstrank(friend)
-      get [RANK,"user_id=#{friend}&apikey=#{Whoru::INFOCHIMPS_APIKEY}"].join('?')
+      get [RANK,"user_id=#{friend}&apikey=#{Whoareyou::INFOCHIMPS_APIKEY}"].join('?')
     rescue
       {}    
     end

@@ -4,8 +4,8 @@ describe 'Whoru::Profile' do
   it 'should return empty array' do
     
     class SampleProfile
-      include Whoru::Api
-      include Whoru::Profile
+      include Whoareyou::Api
+      include Whoareyou::Profile
       
     end
     sample = SampleProfile.new
