@@ -12,5 +12,11 @@
             %input{:type => 'text', :name => 'sn', :id => 'sn'}
           %li
             %input{:type => 'submit'}
+
+    %center
+      #searching{:style => 'display:none;'}
+        %img{:src => '/images/ajax-loader.gif', :style => 'display:block;'}        
+        Searching...
     - if @categories
       = haml :results 
+

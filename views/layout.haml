@@ -21,3 +21,11 @@
         %h1 Who Are You?
       
       = yield
+      
+    %script{:src => '/javascripts/zepto.min.js', :type => 'text/javascript'}
+    :javascript
+      $(document).ready(function () {
+        $('form').bind('submit', function () {
+          $('#searching').show();
+        });
+      });
